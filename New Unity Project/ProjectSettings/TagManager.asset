@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - NPCS
+  - World
+  - Floor
+  - decorations
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 3992905939
+    locked: 0
+  - name: floor decorations
+    uniqueID: 1947413781
+    locked: 0
+  - name: NPCS
+    uniqueID: 158180471
+    locked: 0
+  - name: Player
+    uniqueID: 909562553
+    locked: 0
+  - name: World
+    uniqueID: 1774878387
+    locked: 0
+  - name: decorations
+    uniqueID: 1672477
+    locked: 0
+  - name: UI
+    uniqueID: 3395524915
+    locked: 0
