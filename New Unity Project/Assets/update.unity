@@ -174,7 +174,7 @@ MonoBehaviour:
   npcName: Bohater
   sentences:
   - "*Odg\u0142osy chrapania*"
-  - "Hmmm. Wygl\u0105da na to, \u017Ce \u015Bpi."
+  - "Hmmm. Wygl\u0105da na to, \u017Ce \u015Bpi..."
   sentenceTime: 2
 --- !u!70 &20632077
 CapsuleCollider2D:
@@ -4591,15 +4591,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: Ofor
   sentences:
-  - "Aa czyli chcesz otworzy\u0107 skrzynie?"
+  - "Aa, czyli chcesz otworzy\u0107 skrzynie?"
   - Rozumiem.
-  - "Sam chcialbym wiedzie\u0107 co w niej trzymaj\u0105"
+  - "Sam chcialbym wiedzie\u0107, co w niej trzymaj\u0105"
   - "Mam dla ciebie propozycj\u0119."
   - Daj to mojemu znajomemu.
   - '*Otrzymujesz przedmiot - List*'
   - "Stra\u017Cnicy pilnuj\u0105 go w piwnicy."
   - W zamian dostaniesz klucz.
-  sentenceTime: 2
+  sentenceTime: 3
   isRcallable: 1
   questListener: {fileID: 946850567}
   newQuest:
@@ -4640,7 +4640,7 @@ MonoBehaviour:
   - "Ohh tego w\u0142a\u015Bnie potrzebowa\u0142em."
   - "W ko\u0144cu mog\u0119 co\u015B zobaczy\u0107."
   - "Dotrzy\u0142e\u015B obietnicy, oto klucz do skrzyni"
-  sentenceTime: 2
+  sentenceTime: 3
   questTrigger: {fileID: 328083451}
   recall: 0
   order: 0
@@ -19423,10 +19423,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: Bohater
   sentences:
-  - "*Otwiasz skrzyni\u0119*"
-  - "*Zagl\u0105dasz do \u015Brodka*"
-  - Co to takiego?
-  sentenceTime: 2
+  - "*Otwiasz skrzyni\u0119 i zagl\u0105dasz do \u015Brodka*"
+  - Co to takiego?...Karteczka?
+  - "To ju\u017C koniec gry. Wci\u0105\u017C mo\u017Cesz rozgl\u0105da\u0107 si\u0119
+    i chodzi\u0107 po mapie."
+  - "Dzi\u0119kuj\u0119 za zagranie w moj\u0105 gr\u0119."
+  sentenceTime: 3
   questTrigger: {fileID: 328083454}
   recall: 0
   order: 1
@@ -19688,8 +19690,8 @@ MonoBehaviour:
   npcName: "Stra\u017Cnik"
   sentences:
   - "A wi\u0119c przys\u0142ali ci\u0119 po mnie?"
-  - "No dobrze p\xF3jd\u0119 z tob\u0105 pod ale pod jednym warunkiem."
-  sentenceTime: 2
+  - "No dobrze, p\xF3jd\u0119 z tob\u0105 - ale pod jednym warunkiem."
+  sentenceTime: 3
   questTrigger: {fileID: 946850564}
   recall: 0
   order: 0
@@ -19707,9 +19709,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: "Stra\u017Cnik"
   sentences:
-  - "Wejd\u017A do g\xF3wnej sali i wyj\u017Cyj przez okno."
+  - "Wejd\u017A do g\xF3wnej sali i wyjrzyj przez okno."
   - "Je\u015Bli co\u015B zobaczysz, daj mi zna\u0107."
-  sentenceTime: 2
+  sentenceTime: 3
   isRcallable: 1
   questListener: {fileID: 869110143}
   newQuest:
@@ -19965,7 +19967,7 @@ MonoBehaviour:
   - "Najpierw musisz wykona\u0107 dla mnie zadanie."
   - "W piwnicy chowa si\u0119 jeden z moich stra\u017Cnik\xF3w."
   - "Przyprowad\u017A go do mnie."
-  sentenceTime: 2
+  sentenceTime: 3
   isRcallable: 0
   questListener: {fileID: 0}
   newQuest:
@@ -20023,14 +20025,14 @@ MonoBehaviour:
   - "Co? Ty te\u017C.."
   - "Przecie\u017C to niemo\u017Cliwe, \u017Ce kto\u015B tam jest."
   - "No dobrze, niech ci b\u0119dzie."
-  - "Zobacz\u0119 czy co\u015B tam faktycznie jest."
+  - "Zobacz\u0119, czy co\u015B tam faktycznie jest."
   - '*Podchodzi do okna*'
   - AAAA AA A
   - "O kurka! Rzeczywi\u015Bcie. Ale co on tu robi..."
   - "M\xF3wili mi, \u017Ce tak si\u0119 mo\u017Ce sta\u0107."
   - "Szkoda, \u017Ce wtedy ich nie pos\u0142ucha\u0142em."
   - "Dzi\u0119kuj\u0119 za to. Mo\u017Cesz porozmawia\u0107 z potworem."
-  sentenceTime: 2
+  sentenceTime: 3
   questTrigger: {fileID: 869110145}
   recall: 0
   order: 0
@@ -20331,8 +20333,8 @@ MonoBehaviour:
   - "Spisa\u0142e\u015B si\u0119!"
   - "W zamian dam ci wskaz\xF3wk\u0119."
   - "Potw\xF3r ma klucz do skrzyni."
-  - "Je\u015Bi uda ci si\u0119 z nim porozmawia\u0107 mo\u017Ce ci go odda."
-  sentenceTime: 2
+  - "Je\u015Bi uda ci si\u0119 z nim porozmawia\u0107, mo\u017Ce ci go odda."
+  sentenceTime: 3
   questTrigger: {fileID: 1001330830}
   recall: 0
   order: 0
@@ -20457,9 +20459,9 @@ MonoBehaviour:
   - "A ten obecny uci\u0105\u0142 sobie drzemk\u0119."
   - "Dzi\u0119kuj\u0119 za list. "
   - "Mam nadziej\u0119, \u017Ce jeszcze si\u0119 zobaczymy."
-  - "Daj to Oforowi, b\u0119dzie wiedzia\u0142 \u017Ce u mnie by\u0142e\u015B."
+  - "Daj to Oforowi, b\u0119dzie wiedzia\u0142, \u017Ce u mnie by\u0142e\u015B."
   - '*Otrzymujesz przedmiot - okulary*'
-  sentenceTime: 2
+  sentenceTime: 3
   questTrigger: {fileID: 328083451}
   recall: 0
   order: 1
@@ -20816,11 +20818,11 @@ MonoBehaviour:
   npcName: Bohater
   sentences:
   - '*Podchodzi do okna*'
-  - "Zbli\u017Caj\u0105c si\u0119 do okna powli zaczynasz dostrzega\u0107 kszta\u0142t
+  - "Zbli\u017Caj\u0105c si\u0119 do okna, powoli zaczynasz dostrzega\u0107 kszta\u0142t
     postaci."
   - "Patrzy si\u0119 prosto w twoje oczy."
   - Ze zdumieniem odchodzisz od okna.
-  sentenceTime: 2
+  sentenceTime: 3
   questTrigger: {fileID: 869110144}
   recall: 0
   order: 0
@@ -22356,7 +22358,7 @@ MonoBehaviour:
   - To mleczko!
   - '*Chowa przedmiot do ekwipunku* '
   - "Teraz musz\u0119 tylko odnie\u015B\u0107 je stra\u017Cnikowi."
-  sentenceTime: 2
+  sentenceTime: 3
   questTrigger: {fileID: 1001330830}
   recall: 0
   order: 1
